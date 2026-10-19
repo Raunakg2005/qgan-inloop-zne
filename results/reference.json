@@ -1,0 +1,26 @@
+{
+  "tabular": {
+    "ml_eff_trtr": {
+      "mean": 0.9872189153439154,
+      "std": 0.0012694924496101099
+    },
+    "mean_tvd_test_vs_train": 0.12597996231272973,
+    "corr_diff_test_vs_train": 0.07504828980084972
+  },
+  "stocks": {
+    "pred_mae_trtr": {
+      "mean": 0.8680769562721252,
+      "std": 0.013219961470406771
+    },
+    "disc_score_test_vs_train": {
+      "mean": 0.4586854577064514,
+      "std": 0.01215228604493982
+    },
+    "corr_diff_test_vs_train": 0.2136836064692397,
+    "mean_real_offdiag_corr_train": 0.43071315141378
+  },
+  "mnist": {
+    "fd_lenet_train_vs_test": 2.7895315674017596,
+    "ndb_k_train_vs_test": 0.21
+  }
+}

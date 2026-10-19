@@ -1,0 +1,11 @@
+{
+  "final": {
+    "fd_lenet": 514.6241166795342,
+    "ndb_k": 0.74
+  },
+  "final_ideal_circuit": {
+    "fd_lenet": 562.2907853080006,
+    "ndb_k": 0.77
+  },
+  "train_seconds": 2705.7897374629974
+}

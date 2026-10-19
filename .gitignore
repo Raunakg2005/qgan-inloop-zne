@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Downloaded / regenerable data (re-create with `python data.py --prepare` and `python metrics.py`)
+data/MNIST/
+# Yahoo Finance prices: not redistributed
+data/stocks_adjclose.csv
+data/lenet_mnist.pt
+
+# Model weights (regenerable, ~68 MB); per-run config/log/metrics JSON files ARE tracked
+runs/**/gen.pt
+
+# Console logs (contain local machine paths)
+logs/
+
+# Generated tables and figures (re-create with make_tables.py / make_figures.py)
+outputs/
+
+# Code from the withdrawn manuscript version (not part of this release)
+_withdrawn_version/

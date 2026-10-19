@@ -1,0 +1,15 @@
+{
+  "final": {
+    "disc_score": 0.5,
+    "pred_mae": 1.0749915838241577,
+    "corr_diff": 0.41662155201102435,
+    "mean_tvd": 0.14923249619482498
+  },
+  "final_ideal_circuit": {
+    "disc_score": 0.5,
+    "pred_mae": 1.0930254459381104,
+    "corr_diff": 0.4174701300606415,
+    "mean_tvd": 0.14823021308980214
+  },
+  "train_seconds": 1086.6310648918152
+}

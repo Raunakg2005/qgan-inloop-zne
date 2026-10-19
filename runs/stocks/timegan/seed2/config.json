@@ -1,0 +1,10 @@
+{
+  "seed": 2,
+  "iters": 5000,
+  "hidden": 64,
+  "layers": 3,
+  "batch": 128,
+  "gamma": 1.0,
+  "threads": 4,
+  "model": "timegan"
+}

@@ -1,0 +1,8 @@
+{
+  "seed": 2,
+  "epochs": 300,
+  "threads": 4,
+  "model": "ctgan",
+  "batch_size": 60,
+  "pac": 10
+}

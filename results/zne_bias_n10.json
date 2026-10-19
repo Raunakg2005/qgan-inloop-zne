@@ -1,0 +1,83 @@
+{
+  "args": {
+    "n": 10,
+    "L": 6,
+    "n_z": 8,
+    "init": 0.1,
+    "seed": 0
+  },
+  "rows": [
+    {
+      "p": 0.0001,
+      "bias_unmitigated": 0.0009180517762530274,
+      "bias_zne": 1.593232356638108e-05,
+      "max_bias_unmitigated": 0.004349257931466566,
+      "max_bias_zne": 8.162287950397307e-05,
+      "mean_abs_ideal": 0.10321687142560307
+    },
+    {
+      "p": 0.0002,
+      "bias_unmitigated": 0.0018280314122361037,
+      "bias_zne": 9.084319997231319e-06,
+      "max_bias_unmitigated": 0.008662080197288535,
+      "max_bias_zne": 4.801751791672082e-05,
+      "mean_abs_ideal": 0.10321687142560307
+    },
+    {
+      "p": 0.0005,
+      "bias_unmitigated": 0.00451023548702152,
+      "bias_zne": 0.0001680358169058104,
+      "max_bias_unmitigated": 0.02138492583848217,
+      "max_bias_zne": 0.0007057276667541412,
+      "mean_abs_ideal": 0.10321687142560307
+    },
+    {
+      "p": 0.001,
+      "bias_unmitigated": 0.008825558592342122,
+      "bias_zne": 0.0008857179185572772,
+      "max_bias_unmitigated": 0.041888527193410297,
+      "max_bias_zne": 0.003923169368879598,
+      "mean_abs_ideal": 0.10321687142560307
+    },
+    {
+      "p": 0.002,
+      "bias_unmitigated": 0.01690440853967477,
+      "bias_zne": 0.003604747751197246,
+      "max_bias_unmitigated": 0.08039343200391214,
+      "max_bias_zne": 0.016296370774459,
+      "mean_abs_ideal": 0.10321687142560307
+    },
+    {
+      "p": 0.005,
+      "bias_unmitigated": 0.037264144624004535,
+      "bias_zne": 0.017412427113048995,
+      "max_bias_unmitigated": 0.17819622823601483,
+      "max_bias_zne": 0.08042888962205913,
+      "mean_abs_ideal": 0.10321687142560307
+    },
+    {
+      "p": 0.01,
+      "bias_unmitigated": 0.06118043418475002,
+      "bias_zne": 0.04348574146847519,
+      "max_bias_unmitigated": 0.2948970334840062,
+      "max_bias_zne": 0.2050651089663008,
+      "mean_abs_ideal": 0.10321687142560307
+    },
+    {
+      "p": 0.02,
+      "bias_unmitigated": 0.08627265926058399,
+      "bias_zne": 0.07800924313155287,
+      "max_bias_unmitigated": 0.42073746821571445,
+      "max_bias_zne": 0.37676278195958113,
+      "mean_abs_ideal": 0.10321687142560307
+    },
+    {
+      "p": 0.05,
+      "bias_unmitigated": 0.1021768545597935,
+      "bias_zne": 0.10165688956617484,
+      "max_bias_unmitigated": 0.505068477932255,
+      "max_bias_zne": 0.5019891746079803,
+      "mean_abs_ideal": 0.10321687142560307
+    }
+  ]
+}

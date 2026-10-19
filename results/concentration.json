@@ -1,0 +1,38 @@
+{
+  "n": 12,
+  "L": 6,
+  "rows": [
+    {
+      "entangle": true,
+      "init": "small_0.1pi",
+      "R": 10,
+      "n_z": 2000,
+      "mean_std": 0.07634998038411141,
+      "sd_over_draws": 0.002748302607274086
+    },
+    {
+      "entangle": true,
+      "init": "uniform_pi",
+      "R": 10,
+      "n_z": 2000,
+      "mean_std": 0.015674210526049136,
+      "sd_over_draws": 0.0005267729659138844
+    },
+    {
+      "entangle": false,
+      "init": "small_0.1pi",
+      "R": 10,
+      "n_z": 2000,
+      "mean_std": 0.48628592789173125,
+      "sd_over_draws": 0.009215214150605814
+    },
+    {
+      "entangle": false,
+      "init": "uniform_pi",
+      "R": 10,
+      "n_z": 2000,
+      "mean_std": 0.42807295322418215,
+      "sd_over_draws": 0.037285297653573926
+    }
+  ]
+}
