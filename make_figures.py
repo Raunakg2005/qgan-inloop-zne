@@ -79,13 +79,15 @@ def fig_gradvar():
         return
     g = json.load(open(f))
     fig, ax = plt.subplots(figsize=(3.4, 2.4))
+    rng_label = {"uniform_pi": r"$\theta\sim U[-\pi,\pi]$",
+                 "small_0.1pi": r"$\theta\sim U[-0.1\pi,0.1\pi]$"}
     for init, ls in (("uniform_pi", "-"), ("small_0.1pi", "--")):
         rows = [r for r in g["rows"] if r["init"] == init]
         n = [r["n"] for r in rows]
         ax.semilogy(n, [r["var_local"] for r in rows], ls, marker="o", ms=3, color="#5B2A86",
-                    label=f"local, {init.replace('_', ' ')}")
+                    label=f"local, {rng_label[init]}")
         ax.semilogy(n, [r["var_global"] for r in rows], ls, marker="s", ms=3, color="#D55E00",
-                    label=f"global, {init.replace('_', ' ')}")
+                    label=f"global, {rng_label[init]}")
     ax.set_xlabel("Number of qubits $n$")
     ax.set_ylabel(r"Var$[\partial C/\partial\theta_1]$")
     ax.set_title(f"L = {g['L']}, K = {g['K']} parameter draws")
@@ -96,7 +98,8 @@ def fig_gradvar():
 
 
 def fig_zne_bias():
-    files = sorted(glob.glob(os.path.join(RES, "zne_bias_n*.json")))
+    files = sorted(glob.glob(os.path.join(RES, "zne_bias_n*.json")),
+                   key=lambda f: int(f.rsplit("_n", 1)[1].split(".")[0]))
     if not files:
         return
     fig, ax = plt.subplots(figsize=(3.4, 2.4))
